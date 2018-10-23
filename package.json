@@ -1,0 +1,9 @@
+{
+  "name": "datastore-app",
+  "version": "30.0.0",
+  "description": "An app to edit and manage namespaces.",
+  "main": "app.js",
+  "author": "Steven Hicks, Pavel Jurásek & Birk",
+  "license": "ISC",
+  "homepage": "https://github.com/dhis2/datastore-app"
+}
