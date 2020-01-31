@@ -1,0 +1,6 @@
+{
+  "name": "datastore-app",
+  "description": "An app to edit and manage namespaces.",
+  "license": "ISC",
+  "version": "31.0.0"
+}
