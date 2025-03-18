@@ -4,7 +4,7 @@
   "title": "Datastore",
   "id": "c968eb49-01f5-4904-b4d3-f3785c6bfc09",
   "minDHIS2Version": "2.41",
-  "version": "1.4.0-beta.1",
+  "version": "1.4.0-beta.2",
   "description": "",
   "entryPoints": {
     "app": "index.html"
