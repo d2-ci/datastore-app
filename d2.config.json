@@ -1,0 +1,10 @@
+{
+  "type": "app",
+  "name": "datastore",
+  "version": "200.0.0",
+  "description": "",
+  "title": "datastore",
+  "entryPoints": {
+    "app": "index.html"
+  }
+}
