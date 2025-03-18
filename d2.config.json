@@ -1,9 +1,10 @@
 {
   "type": "app",
   "name": "datastore",
-  "title": "Datastore Management",
-  "coreApp": true,
-  "version": "1.3.5",
+  "title": "Datastore",
+  "id": "c968eb49-01f5-4904-b4d3-f3785c6bfc09",
+  "minDHIS2Version": "2.41",
+  "version": "99.10.1",
   "description": "",
   "entryPoints": {
     "app": "index.html"
