@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "name": "datastore",
+  "title": "Datastore",
+  "id": "c968eb49-01f5-4904-b4d3-f3785c6bfc09",
+  "minDHIS2Version": "2.41",
+  "version": "100.0.0",
+  "description": "",
+  "entryPoints": {
+    "app": "index.html"
+  }
+}
