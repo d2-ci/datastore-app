@@ -1,0 +1,37 @@
+{
+    "name": "datastore-app",
+    "version": "100.0.3",
+    "description": "",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "scripts": {
+        "build": "d2-app-scripts build",
+        "lint": "yarn tsc && d2-style check",
+        "lint:staged": "d2-style check --staged",
+        "format": "d2-style apply",
+        "format:staged": "d2-style apply --staged",
+        "start": "d2-app-scripts start",
+        "test": "d2-app-scripts test",
+        "deploy": "d2-app-scripts deploy"
+    },
+    "devDependencies": {
+        "@dhis2/cli-app-scripts": "^12.3.0",
+        "@dhis2/cli-style": "^10.7.5",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.2.0",
+        "@testing-library/user-event": "^14.6.1",
+        "@types/jest": "^29.5.14",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "react-router-dom": "^7.0.1",
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@codemirror/lang-json": "^6.0.1",
+        "@dhis2/app-runtime": "^3.13.1",
+        "@dhis2/ui": "^10.5.0",
+        "@uiw/react-codemirror": "^4.23.6",
+        "prop-types": "^15.8.1"
+    }
+}
