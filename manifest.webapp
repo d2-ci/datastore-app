@@ -4,7 +4,8 @@
   "short_name": "datastore",
   "name": "Datastore",
   "description": "",
-  "version": "1.4.0-beta.2",
+  "version": "100.1.0",
+  "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
   "activities": {
@@ -15,7 +16,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Tue Mar 18 2025 18:11:13 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Mon Jul 07 2025 15:14:04 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
