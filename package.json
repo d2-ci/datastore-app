@@ -1,0 +1,40 @@
+{
+    "name": "datastore-app",
+    "version": "100.4.0",
+    "description": "",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "scripts": {
+        "build": "d2-app-scripts build",
+        "lint": "yarn tsc && d2-style check",
+        "lint:staged": "d2-style check --staged",
+        "format": "d2-style apply",
+        "format:staged": "d2-style apply --staged",
+        "start": "d2-app-scripts start",
+        "test": "d2-app-scripts test",
+        "deploy": "d2-app-scripts deploy"
+    },
+    "devDependencies": {
+        "@dhis2/cli-app-scripts": "^12.3.0",
+        "@dhis2/cli-style": "^10.7.5",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.2.0",
+        "@testing-library/user-event": "^14.6.1",
+        "@types/jest": "^29.5.14",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "react-router-dom": "^7.0.1",
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@codemirror/lang-json": "^6.0.1",
+        "@dhis2/app-runtime": "^3.13.1",
+        "@dhis2/ui": "^10.5.0",
+        "@uiw/react-codemirror": "^4.23.6",
+        "@uiw/react-json-view": "1.12.2",
+        "lodash-es": "^4.17.21",
+        "prop-types": "^15.8.1"
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
