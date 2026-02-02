@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "datastore",
+  "title": "Datastore Management",
+  "coreApp": true,
+  "version": "1.3.4",
+  "description": ""
+}
